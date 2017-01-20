@@ -1195,10 +1195,14 @@ object {
 
 hr {
     clear: both;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 50px;
     outline: 0;
     border-top: 1px solid #ededed
+}
+
+.inner-side hr{
+  margin-top: 20px !important;
 }
 
 hr.no-text {
@@ -2355,4 +2359,12 @@ only screen and (max-width: 767px) {
     .slides .entry-lg {
         margin-bottom: 0;
     }
+}
+
+.link-white{
+  color: #fff;
+}
+
+.link-white:hover{
+  color: #00e5ff;
 }

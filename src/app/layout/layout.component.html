@@ -8,34 +8,33 @@
             <p class="no-margin">
               Have any questions?
               <strong>
-                +080 124 880
-              </strong> or mail@codenpixel.com
+                +01 123 124 880
+              </strong> or <a href="mailto:hello@bluemangodeals.com" class="link-white">hello@bluemangodeals.com</a>
             </p>
           </div>
           <div class="pull-right col-sm-6">
             <ul class="list-inline list-unstyled pull-right">
+
               <li class="active">
                 <a href="#">
-                  <i class="ti-cart">
-                  </i> Faq
+                  <i class="ti-cart"></i> FAQ
                 </a>
               </li>
+
+              <li>
+                <a href="#">Sign In</a>
+              </li>
+
+              <li>
+                <a href="#">Sign Up</a>
+              </li>
+
               <li>
                 <a href="#">
-                  Sign In
+                  <i class="ti-shopping-cart"></i> Cart
                 </a>
               </li>
-              <li>
-                <a href="#">
-                  Sign Up
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="ti-shopping-cart">
-                  </i> Cart
-                </a>
-              </li>
+
             </ul>
           </div>
         </div>
@@ -52,10 +51,14 @@
           <div class="col-sm-9">
             <div class="search-form">
 
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <div class="row">
                   <div class="col-md-12">
-                    <input class="form-control" placeholder="Search Deals &amp; Coupons" type="text">
+                    <div class="form-group has-feedback has-feedback-left">
+                      <label class="control-label sr-only">Search for Deals...</label>
+                      <input type="text" style="padding-right: 0; padding-left: 40px;" class="form-control" placeholder="Search for Deals..." />
+                      <i style="left: 0; margin: 5px; font-size: 20px; line-height: 30px;" class="form-control-feedback ti-search"></i>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -64,7 +67,7 @@
               <div class="col-sm-4">
                 <select class="form-control">
                   <option value="0" selected="selected">
-                    Select your categorie
+                    Select your Location
                   </option>
                   <option value="1">
                     All
@@ -87,9 +90,10 @@
                 </select>
               </div>
               <!-- /.col 3 -->
-              <div class="col-sm-4">
-                <a class="btn btn-raised ripple-effect btn-default btn-block" href="results.html">
-                  Search Deals
+              <div class="col-sm-2">
+                <a class="btn btn-raised ripple-effect btn-default btn-block" style="height: 44px;">
+                  <i style="left: 0px; margin: 5px; font-size: 24px; line-height: 36px;" class="form-control-feedback ti-search"></i>
+                  <span style="padding-left: 30px;">Search</span>
                 </a>
               </div>
               <!-- /.col 1 -->
@@ -126,90 +130,30 @@
                   <a routerLink='/' routerLinkActive="active" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                     <i class="ti-home">
                     </i> Home
-                    <span class="caret">
-                                                </span>
                   </a>
-                  <ul class="dropdown-menu" role="menu" style="display: none;">
-                    <li>
-                      <a href="#">
-                        Second Design
-                      </a>
-                    </li>
+                </li>
 
-                  </ul>
-                </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  <a routerLink='/about' class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                     <i class=" ti-clipboard">
-                    </i> Pages
-                    <span class="caret">
-                                                </span>
+                    </i> About
                   </a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li>
-                      <a href="details_2.html">
-                        Deal Page 1
-                      </a>
-                    </li>
-                    <li>
-                      <a href="details.html">
-                        Deal Page 2
-                      </a>
-                    </li>
-                    <li>
-                      <a href="results.html">
-                        Search Results
-                      </a>
-                    </li>
-                    <li>
-                      <a href="contact.html">
-                        Contact
-                      </a>
-                    </li>
-                    <li>
-                      <a href="faq.html">
-                        FAQ page
-                      </a>
-                    </li>
-                    <li>
-                      <a href="sumbit.html">
-                        Sumbit deal
-                      </a>
-                    </li>
-                    <li>
-                      <a href="registration.html">
-                        Registration
-                      </a>
-                    </li>
-                    <li>
-                      <a href="cart.html">
-                        Cart Page
-                      </a>
-                    </li>
-                    <li>
-                      <a href="checkout.html">
-                        Checkout
-                      </a>
-                    </li>
-                    <li>
-                      <a href="features.html">
-                        Shortcodes
-                      </a>
-                    </li>
-                  </ul>
                 </li>
+
                 <li>
-                  <a href="results.html">
+                  <a routerLink='/news'>
                     <i class=" ti-list-ol">
-                    </i> Categories
+                    </i> News
                   </a>
                 </li>
+
                 <li>
-                  <a href="sumbit.html">
+                  <a routerLink='/my-account'>
                     <i class="ti-settings">
-                    </i> Sumbit
+                    </i> My Account
                   </a>
                 </li>
+
                 <li>
                   <a routerLink='/contact' routerLinkActive="active">
                     <i class="ti-email">
@@ -258,57 +202,19 @@
     <div class="container">
       <div class="col-sm-4">
         <img src="images/logo-dark.png" alt="#" class="img-responsive logo">
-        <p>
-          Kupon,travel deals &amp; publishing,with minimal design. We provide you with the latest fresh inspiration
-          straight from the industrie.
-        </p>
+        <span>
+          Shop Local. Save Local. Support Local.
+        </span>
       </div>
       <div class="col-sm-4">
         <h5>
-          COMMON TAGS
+          GET BLUEMANGO MOBILE APP
         </h5>
-        <ul class="tags">
-          <li>
-            <a href="#" class="tag">
-              Vacation
-            </a>
-          </li>
-          <li>
-            <a href="#" class="tag">
-              Rentals
-            </a>
-          </li>
-          <li>
-            <a href="#" class="tag">
-              Deals
-            </a>
-          </li>
-          <li>
-            <a href="#" class="tag">
-              Travel deals
-            </a>
-          </li>
-          <li>
-            <a href="#" class="tag">
-              Vacation deals
-            </a>
-          </li>
-          <li>
-            <a href="#" class="tag">
-              Adriatic coast
-            </a>
-          </li>
-          <li>
-            <a href="#" class="tag">
-              Europe
-            </a>
-          </li>
-          <li>
-            <a href="#" class="tag">
-              Island
-            </a>
-          </li>
-        </ul>
+
+        <img src="assets/images/app-store.svg" width="185"/>
+
+        <img src="assets/images/google-play.svg" width="185" />
+
       </div>
       <div class="col-sm-2">
         <h5>
@@ -365,14 +271,8 @@
       <div class="container">
         <div class="col-sm-7">
           <p>
-            <strong>
-              Copyright 2015
-            </strong> Kupon- deals and Coupons template made with
-            <i class="ti-heart">
-            </i>
-            <strong>
-              by Codenpixel
-            </strong>
+              Copyright &copy; 2017
+             <strong>Blue Mango Deals</strong>. All Rights Reserved.
           </p>
         </div>
         <div class="col-sm-5">
