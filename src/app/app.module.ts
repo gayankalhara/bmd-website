@@ -8,6 +8,7 @@ import { Routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { HomeComponent } from './pages/home/home.component';
     AppComponent,
     LayoutComponent,
     HomeComponent,
+    ContactComponent,
 
   ],
   imports: [

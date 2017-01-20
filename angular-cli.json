@@ -20,10 +20,9 @@
             "./assets/css/bootstrap.min.css",
             "./assets/css/themeify-icons.css",
             "./assets/css/font-awesome.css",
-
+            "./assets/css/plugins.min.css",
             "./assets/css/animate.min.css",
             "./assets/css/animsition.css",
-
             "./assets/css/style.css"
         ],
         "scripts": [
