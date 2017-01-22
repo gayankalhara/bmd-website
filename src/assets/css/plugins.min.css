@@ -1105,7 +1105,7 @@ html[xmlns] .flexslider .slides {
 
 .btn-primary,
 .dropdown-toggle.btn-primary {
-    background-color: #3c86ef;
+    background-color: #2684f5;
 }
 
 .btn-primary.active,
@@ -1114,12 +1114,12 @@ html[xmlns] .flexslider .slides {
 .dropdown-toggle.btn-primary.active,
 .dropdown-toggle.btn-primary:active,
 .dropdown-toggle.btn-primary:hover {
-    background-color: #4e6cef
+    background-color: #0f5ca9;
 }
 
 .btn-primary:focus,
 .dropdown-toggle.btn-primary:focus {
-    background-color: #455ede
+    background-color: #0f5ca9;
 }
 
 .btn-primary.disabled,

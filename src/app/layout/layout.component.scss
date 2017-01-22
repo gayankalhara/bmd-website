@@ -1,0 +1,107 @@
+/**
+ * ========
+ *  Header
+ * ========
+ */
+
+.logo a{
+  height: auto;
+}
+
+/**
+ * ========
+ *  Footer
+ * ========
+ */
+
+#footer{
+  a {
+    color: #757575;
+    font-family: 'Gotham_SSm_4r', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border 0.2s ease-in-out 0s;
+    -moz-transition: border 0.2s ease-in-out 0s;
+    -o-transition: border 0.2s ease-in-out 0s;
+    transition: border 0.2s ease-in-out 0s
+  }
+
+  a:focus, a:hover {
+    outline: 0;
+    text-decoration: none;
+    color: #525252;
+    border-color: #525252;
+  }
+
+  .footer-legal-links {
+    width: auto;
+    overflow: hidden
+  }
+
+  .footer-legal-links li {
+    position: relative;
+    float: left;
+    text-align: left;
+    color: #586062;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 13px 0 12px
+  }
+
+  .footer-legal-links li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 1px;
+    height: 12px;
+    background: #586062;
+    margin-right: 5px
+  }
+
+  .footer-legal-links li:first-child {
+    padding-left: 0
+  }
+
+  .footer-legal-links li:first-child:before {
+    display: none
+  }
+
+  .footer-legal-links li:last-child {
+    padding-right: 0
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .footer-legal-links {
+      position: static;
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+ul.footer-legal-links{
+  margin: 6px 0 0;
+}
+
+/**
+ * =============
+ *  Sign up Box
+ * =============
+ */
+
+.sign-up-box{
+  background-color: #2684f5;
+  color: #fff;
+  text-align: center;
+
+  a{
+    color: #fff;
+  }
+
+  a:focus, a:hover {
+    color: #fff !important;
+    border-color: #fff;
+  }
+}

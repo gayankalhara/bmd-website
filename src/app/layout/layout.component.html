@@ -42,19 +42,20 @@
     </div>
     <div class="header">
       <div class="container">
-        <div class="row">
+        <div class="row header-row">
           <div class="col-sm-3">
-            <a routerLink='/' class="navbar-brand logo">
-              <img src="images/logo.png" alt="" class="img-responsive">
-            </a>
+            <div class="logo">
+              <a routerLink='/' class="navbar-brand logo">
+                <img src="images/logo.png" alt="" width="285" height="60" class="img-responsive">
+              </a>
+            </div>
           </div>
           <div class="col-sm-9">
-            <div class="search-form">
-
+            <div class="row">
               <div class="col-sm-6">
                 <div class="row">
                   <div class="col-md-12">
-                    <div class="form-group has-feedback has-feedback-left">
+                    <div class="has-feedback has-feedback-left">
                       <label class="control-label sr-only">Search for Deals...</label>
                       <input type="text" style="padding-right: 0; padding-left: 40px;" class="form-control" placeholder="Search for Deals..." />
                       <i style="left: 0; margin: 5px; font-size: 20px; line-height: 30px;" class="form-control-feedback ti-search"></i>
@@ -93,11 +94,10 @@
               <div class="col-sm-2">
                 <a class="btn btn-raised ripple-effect btn-default btn-block" style="height: 44px;">
                   <i style="left: 0px; margin: 5px; font-size: 24px; line-height: 36px;" class="form-control-feedback ti-search"></i>
-                  <span style="padding-left: 30px;">Search</span>
+                  <span style="padding-left: 30px; line-height: 24px;">Search</span>
                 </a>
               </div>
               <!-- /.col 1 -->
-
             </div>
           </div>
         </div>
@@ -176,22 +176,28 @@
   </section>
 
 
-  <div class="cta-box clearfix">
+  <div class="cta-box sign-up-box clearfix">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-3 col-xs-12 pull-right">
-          <a href="#" class="btn btn-raised btn-danger ripple-effect btn-lg" data-original-title="" title="">
-            <i class="ti-shopping-cart">
-            </i> &nbsp; Sumbit Deal
-          </a>
+        <div class="col-sm-3">
+
         </div>
-        <div class="col-md-9 col-sm-9 col-xs-12">
-          <h3>
-            Welcome to Kupon. Responsive Deal Template
-          </h3>
-          <p>
-            Carefully designed to bring you the best performance, usage and customization experience!
-          </p>
+        <div class="col-sm-6">
+          <div style="text-align: center;">
+            <h2 style="color: #fff; text-align: center;">Sign up today for FREE</h2>
+            <h5 style="color: #fff; text-align: center;">Get great deals online &amp; support your local merchants.</h5>
+            <div style="height: 32px;"></div>
+            <form style="margin-left: auto; margin-right: auto; max-width: 400px;">
+              <input class="form-control" placeholder="Email" type="text"><br>
+              <input class="form-control" placeholder="Password" type="password"><br>
+              <input class="btn btn-primary btn-raised ripple-effect" style="background-color: #004c80; padding: 10px 28px; font-size: 16px; color: #ffffff;" type="submit" value="Sign up for FREE">
+            </form>
+            <div style="height: 18px;"></div>
+            <p><span style="font-size: 14px; color: #fff;">By selecting sign up, I agree to the <a href="#" style="color: #fff;">Terms of Service</a> &amp; <a href="#" style="color: #fff;">Privacy Policy</a>.</span></p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+
         </div>
       </div>
     </div>
@@ -200,15 +206,64 @@
 
   <footer id="footer">
     <div class="container">
-      <div class="col-sm-4">
-        <img src="images/logo-dark.png" alt="#" class="img-responsive logo">
-        <span>
-          Shop Local. Save Local. Support Local.
-        </span>
-      </div>
-      <div class="col-sm-4">
+
+      <div class="col-sm-2">
         <h5>
-          GET BLUEMANGO MOBILE APP
+          Customer Service
+        </h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <li>
+            <a href="#">FAQ's</a>
+          </li>
+          <li>
+            <a href="#">Help and Support</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-2">
+        <h5>
+          Business Owner?
+        </h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#">Merchant Portal</a>
+          </li>
+          <li>
+            <a href="#">Promote Your Business</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>
+          Follow Us
+        </h5>
+
+        <button type="button" class="btn btn-circle btn-primary">
+          <i class="ti-facebook"></i>
+        </button>
+
+        <button type="button" class="btn btn-circle btn-primary">
+          <i class="ti-twitter"></i>
+        </button>
+
+        <button type="button" class="btn btn-circle btn-primary">
+          <i class="ti-google"></i>
+        </button>
+
+        <button type="button" class="btn btn-circle btn-primary">
+          <i class="ti-linkedin"></i>
+        </button>
+
+      </div>
+      <div class="col-sm-5">
+        <h5>
+          Get Blue Mango Deals Mobile App
         </h5>
 
         <img src="assets/images/app-store.svg" width="185"/>
@@ -216,98 +271,30 @@
         <img src="assets/images/google-play.svg" width="185" />
 
       </div>
-      <div class="col-sm-2">
-        <h5>
-          CATEGORIES
-        </h5>
-        <ul class="list-unstyled">
-          <li>
-            Vacation Deals
-          </li>
-          <li>
-            Online Deals
-          </li>
-          <li>
-            Digital goods
-          </li>
-          <li>
-            Travel Deals
-          </li>
-          <li>
-            Hotel deals
-          </li>
-          <li>
-            Featured
-          </li>
-          <li>
-            All Categories ..
-          </li>
-        </ul>
-      </div>
-      <div class="col-sm-2">
-        <h5>
-          ABOUT US
-        </h5>
-        <ul class="list-unstyled">
-          <li>
-            Available Jobs
-          </li>
-          <li>
-            Sumbit Deal
-          </li>
-          <li>
-            Contact Us
-          </li>
-          <li>
-            History
-          </li>
-          <li>
-            Impressium
-          </li>
-        </ul>
-      </div>
     </div>
     <div class="btmFooter">
       <div class="container">
-        <div class="col-sm-7">
-          <p>
-              Copyright &copy; 2017
-             <strong>Blue Mango Deals</strong>. All Rights Reserved.
-          </p>
-        </div>
-        <div class="col-sm-5">
-          <ul class="pay-opt pull-right list-inline list-unstyled">
+        <div class="col-sm-6">
+          <ul class="footer-legal-links">
             <li>
-              <a href="#" title="#">
-                <img src="images/amz-icon.png" class="img-responsive" alt="">
-              </a>
+              <a href="#">Legal</a>
             </li>
             <li>
-              <a href="#" title="#">
-                <img src="images/paypal-icon.png" class="img-responsive" alt="">
-              </a>
+              <a href="#">Privacy Policy</a>
             </li>
             <li>
-              <a href="#" title="#">
-                <img src="images/ax-icon.png" class="img-responsive" alt="">
-              </a>
+              <a href="#">Terms of Service</a>
             </li>
             <li>
-              <a href="#" title="#">
-                <img src="images/mb-icon.png" class="img-responsive" alt="">
-              </a>
-            </li>
-            <li>
-              <a href="#" title="#">
-                <img src="images/mst-icon.png" class="img-responsive" alt="">
-              </a>
-            </li>
-            <li>
-              <a href="#" title="#">
-                <img src="images/mstr-icon.png" class="img-responsive" alt="">
-              </a>
+              <a href="#">Contact</a>
             </li>
           </ul>
+        </div>
+        <div class="col-sm-6">
+          <p class="pull-right">
+            Copyright &copy; 2017
+            <strong>Blue Mango Deals</strong>. All Rights Reserved.
+          </p>
         </div>
       </div>
     </div>

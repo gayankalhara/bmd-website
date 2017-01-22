@@ -150,14 +150,12 @@ h6 a {
 }
 
 a {
-    color: #aacc4e
+  color: #2684f5;
 }
 
-a:focus,
-a:hover {
-    outline: 0;
-    color: #353242;
-    text-decoration: none
+a:focus, a:hover {
+  outline: 0;
+  text-decoration: none;
 }
 
 p {
@@ -406,8 +404,13 @@ object {
 }
 
 .header {
-    padding: 25px 0;
+    padding: 10px 0 20px 0;
     background-color: #2684f5;
+}
+
+.header-row{
+  display: flex;
+  align-items: center;
 }
 
 .header input {
@@ -1479,18 +1482,17 @@ label {
 }
 
 .tag:hover {
-    background-color: #aacc4e;
-    color: #fff
+    background-color: #2684f5;
+    color: #fff !important;
 }
 
 .tag:hover:after {
-    border-left-color: #aacc4e
+    border-left-color: #2684f5;
 }
 
 #footer {
     padding-top: 60px;
     background: #fff;
-    border-top: 1px dashed #ededed
 }
 
 #footer h5,
@@ -1501,7 +1503,7 @@ label {
 #footer .btmFooter {
     margin-top: 50px;
     padding: 25px 0;
-    border: 1px dashed #ededed
+    background-color: #f9f9f9;
 }
 
 #footer .btmFooter p {
