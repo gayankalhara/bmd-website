@@ -958,22 +958,22 @@ object {
 
 .deal-entry .price b {
     color: #333;
-    font-size: 32px;
-    font-size: 29px
+    font-size: 30px
 }
 
 .deal-entry .old-price {
-    padding: 0 8px 0 0;
-    margin: 0;
-    color: #B4B4B4;
-    line-height: 30px;
-    text-align: right;
-    float: right
+  padding: 0;
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 30px;
+  float: left
 }
 
 .deal-entry .old-price span {
-    font-size: 14px;
-    text-decoration: line-through
+  color: #c7c7c7;
+  font-size: 30px;
+  text-decoration: line-through;
 }
 
 @media (max-width: 990px) {
@@ -1046,7 +1046,11 @@ object {
 }
 
 .deal-entry .info_bar .time {
-    padding: 5px 8px 0 5px
+  padding: 5px 8px 0 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2684f5;
+  text-align: left;
 }
 
 .deal-entry .info_bar i {
