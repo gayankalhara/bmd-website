@@ -12,6 +12,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { NewsComponent } from './pages/news/news.component';
 import { MyAccountComponent } from './pages/my-account/my-account.component';
+import { LoginComponent } from './pages/login/login.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { MyAccountComponent } from './pages/my-account/my-account.component';
     AboutComponent,
     NewsComponent,
     MyAccountComponent,
+    LoginComponent,
 
   ],
   imports: [
