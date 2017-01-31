@@ -14,9 +14,7 @@
             <ul class="list-inline list-unstyled pull-right">
 
               <li class="active">
-                <a href="#">
-                  <i class="ti-cart"></i> FAQ
-                </a>
+                <a routerLink='/faq'>FAQ</a>
               </li>
 
               <li>
@@ -24,13 +22,7 @@
               </li>
 
               <li>
-                <a href="#">Sign Up</a>
-              </li>
-
-              <li>
-                <a href="#">
-                  <i class="ti-shopping-cart"></i> Cart
-                </a>
+                <a routerLink='/sign-up'>Sign Up</a>
               </li>
 
             </ul>
@@ -159,6 +151,15 @@
                   </a>
                 </li>
               </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a routerLink='/my-redemptions' routerLinkActive="active" class="dropdown-toggle" role="button">
+                    <i class="fa fa-qrcode">
+                    </i> My Redemptions
+                  </a>
+                </li>
+              </ul>
             </div>
           </nav>
         </div>
@@ -232,9 +233,9 @@
           Get Blue Mango Deals Mobile App
         </h5>
 
-        <img src="assets/images/app-store.svg" width="185"/>
+        <a href="https://itunes.apple.com/us/app/bluemangodeals/id000000000" target="_blank"><img src="assets/images/app-store.svg" width="185"/></a>
 
-        <img src="assets/images/google-play.svg" width="185" />
+        <a href="https://play.google.com/store/apps/details?id=com.bluemangodeals.app" target="_blank"><img  src="assets/images/google-play.svg" width="185" /></a>
 
       </div>
     </div>
