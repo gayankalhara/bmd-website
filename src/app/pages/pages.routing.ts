@@ -5,6 +5,7 @@ import {AboutComponent} from "./about/about.component";
 import {NewsComponent} from "./news/news.component";
 import {MyAccountComponent} from "./my-account/my-account.component";
 import {PrivacyPolicyComponent} from "./privacy-policy/privacy-policy.component";
+import {FaqComponent} from "./faq/faq.component";
 
 export const PAGE_ROUTES: Routes = [
   {
@@ -30,6 +31,10 @@ export const PAGE_ROUTES: Routes = [
   {
    path: 'privacy-policy',
     component: PrivacyPolicyComponent
+  },
+  {
+    path: 'faq',
+    component: FaqComponent
   }
 
 ];
