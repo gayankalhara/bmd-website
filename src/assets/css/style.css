@@ -2374,3 +2374,8 @@ only screen and (max-width: 767px) {
 .link-white:hover{
   color: #00e5ff;
 }
+
+.flex-center{
+  display: flex;
+  align-items: center;
+}
