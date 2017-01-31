@@ -13,6 +13,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { NewsComponent } from './pages/news/news.component';
 import { MyAccountComponent } from './pages/my-account/my-account.component';
 import { LoginComponent } from './pages/login/login.component';
+import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { LoginComponent } from './pages/login/login.component';
     NewsComponent,
     MyAccountComponent,
     LoginComponent,
+    PrivacyPolicyComponent,
 
   ],
   imports: [

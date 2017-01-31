@@ -4,9 +4,7 @@ import { ContactComponent } from './contact/contact.component';
 import {AboutComponent} from "./about/about.component";
 import {NewsComponent} from "./news/news.component";
 import {MyAccountComponent} from "./my-account/my-account.component";
-import {LoginComponent} from "./login/login.component";
-
-
+import {PrivacyPolicyComponent} from "./privacy-policy/privacy-policy.component";
 
 export const PAGE_ROUTES: Routes = [
   {
@@ -28,6 +26,10 @@ export const PAGE_ROUTES: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+   path: 'privacy-policy',
+    component: PrivacyPolicyComponent
   }
 
 ];
