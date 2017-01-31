@@ -6,7 +6,7 @@ import {NewsComponent} from "./news/news.component";
 import {MyAccountComponent} from "./my-account/my-account.component";
 import {PrivacyPolicyComponent} from "./privacy-policy/privacy-policy.component";
 import {DealComponent} from "./deal/deal.component";
-import {FaqComponent} from "./faq/faq.component";
+import {HelpComponent} from "./help/help.component";
 
 export const PAGE_ROUTES: Routes = [
   {
@@ -38,8 +38,8 @@ export const PAGE_ROUTES: Routes = [
     component: DealComponent
   },
   {
-    path: 'faq',
-    component: FaqComponent
+    path: 'help',
+    component: HelpComponent
   }
 
 ];

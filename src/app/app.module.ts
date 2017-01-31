@@ -15,7 +15,7 @@ import { MyAccountComponent } from './pages/my-account/my-account.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { DealComponent } from './pages/deal/deal.component';
-import { FaqComponent } from './pages/faq/faq.component';
+import { HelpComponent } from './pages/help/help.component';
 
 
 @NgModule({
@@ -30,7 +30,7 @@ import { FaqComponent } from './pages/faq/faq.component';
     LoginComponent,
     PrivacyPolicyComponent,
     DealComponent,
-    FaqComponent,
+    HelpComponent,
 
   ],
   imports: [
