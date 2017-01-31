@@ -14,6 +14,7 @@ import { NewsComponent } from './pages/news/news.component';
 import { MyAccountComponent } from './pages/my-account/my-account.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
+import { FaqComponent } from './pages/faq/faq.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     MyAccountComponent,
     LoginComponent,
     PrivacyPolicyComponent,
+    FaqComponent,
 
   ],
   imports: [
